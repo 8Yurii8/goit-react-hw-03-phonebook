@@ -1,0 +1,46 @@
+.section {
+  padding: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  border: solid 1px black;
+
+  padding: 20px;
+}
+
+.contact > div {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact label {
+  margin-bottom: 5px;
+}
+
+.contact input {
+  max-width: 200px;
+}
+
+.contact button {
+  margin-left: 0px;
+  margin-right: auto;
+
+  align-self: center;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: max-content;
+  list-style: none;
+  margin-bottom: 10px;
+  gap: 30px;
+  padding: 5px;
+  border: solid 1px black;
+}
